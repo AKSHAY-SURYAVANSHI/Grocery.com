@@ -45,7 +45,7 @@ const Cart = () => {
     const currency = "INR";
     const receiptId = "qwsaq1";
 
-    const response = await fetch("http://localhost:5001/order", {
+    const response = await fetch("https://grocery-com-yza2.vercel.app/", {
       method: "POST",
       body: JSON.stringify({
         amount,
